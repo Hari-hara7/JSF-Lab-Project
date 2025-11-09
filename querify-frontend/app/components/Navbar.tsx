@@ -20,6 +20,10 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-6 text-sm">
+           <a href="/" className="flex items-center gap-2 text-cyan-300 hover:text-cyan-400 transition-colors font-medium">
+            <History className="w-4 h-4" />
+            Home
+          </a>
           <a href="/query" className="flex items-center gap-2 text-cyan-300 hover:text-cyan-400 transition-colors font-medium">
             <Database className="w-4 h-4" />
             Query
@@ -28,6 +32,7 @@ export default function Navbar() {
             <History className="w-4 h-4" />
             History
           </a>
+
         </div>
       </div>
     </nav>
