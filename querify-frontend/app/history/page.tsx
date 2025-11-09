@@ -90,10 +90,10 @@ export default function HistoryPage() {
                   style={{ animationDelay: `${idx * 50}ms` }}
                 >
                   <td className="p-4 align-top max-w-[250px]">
-                    <div className="text-cyan-100 wrap-break-word">{i.prompt}</div>
+                    <div className="text-cyan-100 break-words">{i.prompt}</div>
                   </td>
                   <td className="p-4 align-top max-w-[300px]">
-                    <div className="font-mono text-xs text-cyan-400 wrap-break-word bg-black/30 p-2 rounded border border-cyan-900/50">
+                    <div className="font-mono text-xs text-cyan-400 break-words bg-black/30 p-2 rounded border border-cyan-900/50">
                       {i.generatedSql}
                     </div>
                   </td>

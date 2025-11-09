@@ -1,4 +1,4 @@
-1'use client'
+'use client'
 import ChartRenderer from '@/components/ChartRenderer'
 import { API_BASE } from '@/lib/api'
 import Papa from 'papaparse'
