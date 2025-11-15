@@ -313,6 +313,15 @@ Retrieve recent query history (last 200 queries).
 # Find process using port 8080
 netstat -ano | findstr :8080
 
+
+You’ll get something like:
+
+TCP    0.0.0.0:8080    0.0.0.0:0    LISTENING    12345
+
+
+Then kill that process:
+
+taskkill /PID 27184 /F
 # Kill the process (replace 12345 with actual PID)
 taskkill /PID 12345 /F
 
