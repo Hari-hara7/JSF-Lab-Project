@@ -21,7 +21,7 @@ public class QueryHistory {
     private UUID id;
 
     @Column(columnDefinition = "text")
-    private String userId; // optional
+    private String userId; 
 
     @Column(columnDefinition = "text", nullable = false)
     private String prompt;
