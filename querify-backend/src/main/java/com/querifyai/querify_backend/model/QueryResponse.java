@@ -17,5 +17,5 @@ public class QueryResponse {
     private List<String> columns;
     private int rowCount;
     private String queryId;
-    private String error; // optional
+    private String error; 
 }

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:3000") // adjust origin(s) for production
+@CrossOrigin(origins = "http://localhost:3000") 
 public class QueryController {
 
     private final QueryService queryService;
