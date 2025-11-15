@@ -1,4 +1,4 @@
-package com.querifyai.repository;
+cpackage com.querifyai.repository;
 
 import com.querifyai.model.QueryHistory;
 import org.springframework.data.jpa.repository.JpaRepository;
