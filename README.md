@@ -30,7 +30,7 @@ List orders where total is greater than average order total.
 
 SYNAPSEDB
 
-postgresql://neondb_owner:npg_LK1rfvNUXn4c@ep-delicate-firefly-adhjs6m1-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+
 
 
 Count total documents
